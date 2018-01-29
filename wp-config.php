@@ -35,7 +35,7 @@ define('DB_USER', 'wxqajgpdsbxscz');
 define('DB_PASSWORD', 'FqUERt0hTmP64lQK8SUI-Mea2x');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'ec2-54-83-27-147.compute-1.amazonaws.com:5432');
+define('DB_HOST', 'ec2-54-83-27-147.compute-1.amazonaws.com');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
