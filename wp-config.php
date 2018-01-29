@@ -26,16 +26,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'dctt4cl177qr4e');
+define('DB_NAME', 'database_name_here');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'wxqajgpdsbxscz');
+define('DB_USER', 'username_here');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'FqUERt0hTmP64lQK8SUI-Mea2x');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'ec2-54-83-27-147.compute-1.amazonaws.com');
+define('DB_HOST', 'localhost');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
@@ -52,14 +52,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'pbj6&ESb&wal>H+o<gA6Y[OB8`I}Ib}-+M`%-0i?M{P}KgrkYE)s9+,V_ VKmwe|');
-define('SECURE_AUTH_KEY',  '|oG8xarkzCs}eUzIeYwSZYAd}5>&Lj2wzi#}mQrKH4lp$ZY5S6ZNq%-&]v_{b>g+');
-define('LOGGED_IN_KEY',    'b|dxJpFhAZf}k}NDkM_kkj$Y^~Z)+ps0qRJ8k89`~R||g>T3kchf8# 1rTHtXo^|');
-define('NONCE_KEY',        '{a|Y]$.ANx>hq)=@H$,>r#UTpq8Ii)CMgp4SZP_`nCcB|(;;<(D<@v@**er4kjJM');
-define('AUTH_SALT',        ']e|-rP|IV#^?|Tsd.X lpZqX+$a+k:T{kOT_3ZDI%dU4aIczil#2xm+nhT6hB-jU');
-define('SECURE_AUTH_SALT', 'i||(_D@wn[:X-98U<Bmke(O<:@zN5t%*@+n^aaf#6%+y<s,+IeE^E%g9+>5a.sd:');
-define('LOGGED_IN_SALT',   '$a{ss-~)o6_<9YfJkCjXG3v3B|FOvmH[-i+ h4^$+3;k+LngIr[fwY:N<D%L_=?S');
-define('NONCE_SALT',       '#}y3ddwCF8fjeP *fKF_zHOL,;>)qfJ=xTX5-4~+>A+T8+9]]1~*hFTVP+WqC?<3');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
