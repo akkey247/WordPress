@@ -514,7 +514,7 @@ function wp_edit_theme_plugin_file( $args ) {
 		@set_time_limit( 300 );
 
 		// Time to wait for loopback requests to finish.
-		$timeout = 100;
+		$timeout = 300;
 
 		$needle_start = "###### wp_scraping_result_start:$scrape_key ######";
 		$needle_end = "###### wp_scraping_result_end:$scrape_key ######";
