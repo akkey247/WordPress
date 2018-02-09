@@ -56,6 +56,9 @@ define('NONCE_SALT',            getenv('NONCE_SALT'));
 define('AWS_ACCESS_KEY_ID',     getenv('AWS_ACCESS_KEY_ID'));
 define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
 
+define('WP_SITEURL', 'https://wordpress-akkey.herokuapp.com'); // WordPressアドレス
+define('WP_HOME', 'https://wordpress-akkey.herokuapp.com'); // サイトアドレス
+
 /**#@-*/
 
 /**
